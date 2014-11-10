@@ -1,0 +1,26 @@
+{
+  "name": "konfup",
+  "version": "1.0.0",
+  "description": "Nodejs configuration made easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whoisandie/konfup.git"
+  },
+  "keywords": [
+    "konfup",
+    "config",
+    "env",
+    "configuration",
+    "environment"
+  ],
+  "author": "whoisandie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whoisandie/konfup/issues"
+  },
+  "homepage": "https://github.com/whoisandie/konfup"
+}
