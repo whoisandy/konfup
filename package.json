@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/whoisandie/konfup/issues"
   },
-  "homepage": "https://github.com/whoisandie/konfup"
+  "homepage": "https://github.com/whoisandie/konfup",
+  "dependencies": {
+    "dotenv": "^0.4.0"
+  }
 }
