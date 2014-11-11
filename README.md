@@ -68,7 +68,7 @@ var config = konf.boot('settings');
 
 ## License
 
-Do Whatever The F**K You Want License (DWTFYT)
+Do Whatever The F**K You Want License (DWTFYW)
 
 Copyright (c) 2014 Whoever uses it.
 
