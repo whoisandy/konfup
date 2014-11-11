@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Nodejs configuration made easy",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha test/*.js"
   },
@@ -29,7 +32,7 @@
     "mout": "^0.10.0"
   },
   "devDependencies": {
-    "mocha": "",
-    "should": ""
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
   }
 }
