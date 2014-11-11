@@ -1,5 +1,5 @@
 {
-  "name": "Test",
-  "env": "dev",
-  "port": 3001
+  "name": "Root App",
+  "env": "staging",
+  "port": 9001
 }
