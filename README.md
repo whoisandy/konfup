@@ -2,7 +2,7 @@ Konfup [![Build Status](https://travis-ci.org/whoisandie/konfup.svg?branch=maste
 ============================================================================================================================
 Nodejs configuration made easy.
 
-Konfup is an environment and configuration module loader. A few things to note are the .env file
+Konfup is an **environment and configuration loader**. A few things to note are the .env file
 must always be located at the root directory, the config can be loaded via a name of a json file
 located at the root or a path to the config file in any directory.
 
