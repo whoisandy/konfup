@@ -4,7 +4,7 @@
   "description": "Nodejs configuration made easy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,12 @@
   },
   "homepage": "https://github.com/whoisandie/konfup",
   "dependencies": {
-    "dotenv": "^0.4.0"
+    "dotenv": "^0.4.0",
+    "lodash": "^2.4.1",
+    "mout": "^0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
   }
 }
