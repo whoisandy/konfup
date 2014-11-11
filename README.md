@@ -18,6 +18,7 @@ An environment file `.env` located at the root file may be shown as below
 
 ```bash
 NODE_ENV=dev
+PORT=9001
 BASIC=basic
 S3_KEY=jasgday28y3r98ya0u0f9usg0sdfjh98y
 S3_SECRET=kjhashdou20u09ueh00senfs0udfkaguy9e
@@ -28,23 +29,30 @@ A configuration file named `settings.json` located at the root may be as shown b
 ```json
 {
   "name": "Your application name",
-  "port": 9001,
   "database": {
     "host": "localhost",
     "port": 27012,
     "user": "root",
     "pass": "pass",
     "name": "database"
-  },
-  ...
+  }
 }
 ```
 
 Thats it. To use the environment and config, just use the following two lines shown below.
 
 ```javascript
+var express = require('express');
 var konf = require('konfup');
 var config = konf.env().config('settings');
+
+var app = express();
+
+// use the config object as follows
+var db = config.database.name
+
+// use the env variables as follows
+app.listen(process.env.port);
 ```
 
 Alternatively you could use the boot function to load both env and config. Its a wrapper to
