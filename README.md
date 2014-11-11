@@ -31,7 +31,7 @@ A configuration file named `settings.json` located at the root may be as shown b
   "port": 9001,
   "database": {
     "host": "localhost",
-    "port": 27012
+    "port": 27012,
     "user": "root",
     "pass": "pass",
     "name": "database"
