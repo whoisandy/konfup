@@ -1,6 +1,6 @@
 {
   "name": "konfup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs configuration made easy",
   "main": "index.js",
   "directories": {
@@ -32,6 +32,6 @@
   },
   "devDependencies": {
     "mocha": "^2.0.1",
-    "should": "^4.3.0"
+    "valky": "0.0.1"
   }
 }
