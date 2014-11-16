@@ -28,11 +28,11 @@
   "homepage": "https://github.com/whoisandie/konfup",
   "dependencies": {
     "dotenv": "^0.4.0",
-    "mout": "^0.10.0"
+    "mout": "^0.10.0",
+    "valky": "0.0.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
-    "mocha": "^2.0.1",
-    "valky": "0.0.1"
+    "mocha": "^2.0.1"
   }
 }
