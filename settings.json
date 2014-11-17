@@ -1,5 +1,12 @@
 {
   "name": "Root App",
-  "env": "staging",
-  "port": 9001
+  "env": "#{NODE_ENV}",
+  "port": "#{PORT}",
+  "basic": "#{BASIC}",
+  "test": "#{TEST}",
+  "something": "#{SOMETHING}",
+  "database": {
+    "host": "#{DBHOST}",
+    "name": "#{DBNAME}"
+  }
 }
